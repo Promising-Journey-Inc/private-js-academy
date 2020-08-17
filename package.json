@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Promising-Journey-Inc/private-js-academy/issues"
   },
-  "homepage": "https://github.com/Promising-Journey-Inc/private-js-academy#readme"
+  "homepage": "https://github.com/Promising-Journey-Inc/private-js-academy#readme",
+  "dependencies": {
+    "owl.carousel": "^2.3.4"
+  }
 }
