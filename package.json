@@ -1,0 +1,19 @@
+{
+  "name": "private-js-academy",
+  "version": "1.0.0",
+  "description": "create a project for acadmey website",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Promising-Journey-Inc/private-js-academy.git"
+  },
+  "author": "Israel and team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Promising-Journey-Inc/private-js-academy/issues"
+  },
+  "homepage": "https://github.com/Promising-Journey-Inc/private-js-academy#readme"
+}
