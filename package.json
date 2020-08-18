@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Promising-Journey-Inc/private-js-academy#readme",
   "dependencies": {
+    "jquery": "^3.5.1",
     "owl.carousel": "^2.3.4"
   }
 }

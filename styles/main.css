@@ -1,0 +1,37 @@
+@media (min-width: 668px) {
+        .Testimonies {
+            display: flex;
+            /* align-items: center; 
+        align-items: flex-start;
+        align-items: flex-end;
+        flex-direction: column;*/
+
+        }
+    }
+
+    .Testimonies div{
+        border: 1px #ccc solid;
+        padding: 10px;
+                  white-space: nowrap;
+
+    }
+
+    .box-1, .box-2, .box-3, .box-4 {
+        margin: 10px;
+        background-color: #F5F5F5;
+        border-radius: 5px;
+        height: 150px;
+    }
+    div > img {
+        border: 2px solid rgb(199, 199, 199);
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    p {
+        color: #40B3A6;
+    }
