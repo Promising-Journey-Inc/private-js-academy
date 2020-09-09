@@ -1,0 +1,38 @@
+.join-us-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.join-us-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #afafaf;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+}
+
+.join-us-form__input {
+    padding: .5rem;
+    margin: .5rem;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.join-us-form__input::placeholder {
+    color: #afafaf;
+}
+
+.join-us-button {
+    background-color: white;
+    color: #afafaf;
+    border: none;
+    border-radius: 10px;
+    padding: .5rem 1rem;
+    margin: .5rem;
+}

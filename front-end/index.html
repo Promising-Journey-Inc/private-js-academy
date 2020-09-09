@@ -5,18 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>private-js-academy</title>
-
-    <!-- styles / css-->
     <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/slick.css" />
-
-
-
+    <link rel="stylesheet" href="styles/slick.css">
+    <link rel="stylesheet" href="styles/form.css">
 </head>
 
 <body>
     <h3 style="text-align: center">Testimonies from recent students</h3>
-
+    <!--CARASELLE STARTS HERE-->
     <div class="for_slick_slider multiple-items">
         <!-- <div class="multiple-items"> -->
         <div class="items">
@@ -31,14 +27,20 @@
         <div class="items">
             <img src="assets/images/person-1.png">
         </div>
-
         <!-- </div> -->
     </div>
-
-
-
+    <!--FORM CONTAINER STARTS HERE-->
+    <div class='join-us-container'>
+        <h2>Join us today! Let us nawser all your questions.</h2>
+        <form class='join-us-form'>
+            <input name='name' placeholder='Name' class='join-us-form__input' />
+            <input name='email' placeholder='Email' class='join-us-form__input' />
+            <textarea comment='name' placeholder='Comment' class='join-us-form__input'></textarea>
+            <button class='join-us-button'>Submit</button>
+        </form>
+    </div>
+    <!--JS SCRIPTS START HERE-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
     <script src="/scripts/slick.js"></script>
     <script src="scripts/main.js"></script>
 </body>
