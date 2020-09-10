@@ -5,7 +5,7 @@ $(function () {
         slidesToScroll: 1,
         arrows: true,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 4000,
         dots: false,
         centerMode: true,
         centerPadding: '0'

@@ -3,12 +3,22 @@
 }
 
 .for_slick_slider .items {
-    width: 350px;
+    width: 250px;
     height: 250px;
-    margin: 50px;
+} 
+
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
 }
 
-.for_slick_slider .items img {
-    width: 350px;
-    height: 250px;
+.items {
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 15px;
+
 }
