@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <!-- bootstrap 4.5 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
     <style>
         * {
             margin: 0;
@@ -23,9 +27,34 @@
             background-color: #f7f7f7;
         }
 
-        .wrapper {
-            padding: 100px;
+        /* section css by IB */
+        div.container {
+            background-color: rgb(237, 237, 237);
+            max-width: 100%;
+            height: 200px;
         }
+
+        .message-bullets {
+            background-color: white;
+        }
+
+        .circle-icon {
+            height: 50px;
+            width: 50px;
+            background-color: #40b3a6;
+            border-radius: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 10px;
+        }
+
+        .card {
+            margin: 10px;
+        }
+
+        /* .wrapper {
+            padding: 100px;
+        } */
 
         /* .wrapper:after {
             content: '';
@@ -54,11 +83,13 @@
             position: relative;
             padding: 25px;
             min-height: 170px;
-            /* position: relative; */
-            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.24);
+            position: relative;
+            /* box-shadow: 0 8px 15px rgba(0, 0, 0, 0.24); */
+            border-radius: 15px;
+
         }
 
-        .text:after {
+        /* .text:after {
             content: '\f0d7';
             position: absolute;
             font-family: fontawesome;
@@ -67,7 +98,7 @@
             color: #fff;
             left: 40px;
             text-shadow: 0 8px 15px rgba(0, 0, 0, 0.24);
-        }
+        } */
 
         .image img {
             width: 80px;
@@ -75,95 +106,178 @@
             border-radius: 50px;
         }
 
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 10px;
+        }
+
+        .responsive {
+            width: 100%;
+            height: auto;
+        }
+
         image h4 {
             margin: 10px 0;
             color: #fff;
         }
 
-        .image {
-            margin-top: 25px;
-        }
 
         .items {
             margin: 0 25px;
+        }
+
+        /* slide arrows css */
+        .slick-prev::before,
+        .slick-next:before {
+            color: #40b3a6;
         }
     </style>
 
 </head>
 
 <body>
-    <h3 style="text-align: center">Testimonies from recent students</h3>
+    <!-- Testimonies Done by IB -->
+
+    <h2 style="text-align: center">How PJ private-js-academy Works!</h2>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <div class="circle-icon">
+
+                </div>
+                <div>
+                    <p class="message-bullets">Help students equiped good enough knowledge to get hig paid jobs</p>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="col-sm">
+                    <div class="circle-icon">
+
+                    </div>
+                    <div class="message-bullets">
+                        <p>All the material create by with experts in the industry also mentors in North America and
+                            across the world.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="col-sm">
+                    <div class="circle-icon">
+
+                    </div>
+                    <div class="message-bullets">
+                        <p>We help all students from start to until get their first jobs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonies Done by IB -->
+
+    <h2 style="text-align: center">Testimonies from recent students</h2>
 
     <div class="wrapper">
         <div class="slider">
             <div class="items">
                 <div class="text">
-                    <i class="fa fa-quote-right"></i>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est quisquam mollitia distinctio at ad
-                        sed, ab animi earum ducimus debitis optio cupiditate, magni, voluptates omnis perspiciatis ipsa.
-                        Quae, deserunt. Labore.</p>
-                </div>
-                <div class="image">
-                    <img src="https://uifaces.co/our-content/donated/vIqzOHXj.jpg" alt="">
-                    <h4>Dollor Amet</h4>
+                    <div class="image">
+                        <img class='responsive' src="https://uifaces.co/our-content/donated/vIqzOHXj.jpg" alt="">
+                        <h4>Dollor Amet</h4>
+                    </div>
+                    <!-- <i class="fa fa-quote-right"></i> -->
+                    <p>I was a student of online program, found a job. thanks!</p>
                 </div>
             </div>
 
             <div class="items">
                 <div class="text">
-                    <i class="fa fa-quote-right"></i>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est quisquam mollitia distinctio at ad
-                        sed, ab
-                        animi earum ducimus debitis optio cupiditate, magni, voluptates omnis perspiciatis ipsa. Quae,
-                        deserunt.
-                        Labore.</p>
+                    <div class="image">
+                        <img src="https://randomuser.me/api/portraits/men/97.jpg" alt="">
+                        <h4>Dollor Amet</h4>
+                    </div>
+                    <!-- <i class="fa fa-quote-right"></i> -->
+                    <p>I was a student of online program, found a job. thanks!</p>
                 </div>
-                <div class="image">
-                    <img src="https://uifaces.co/our-content/donated/vIqzOHXj.jpg" alt="">
-                    <h4>Dollor Amet</h4>
+            </div>
+            <div class="items">
+                <div class="text">
+                    <div class="image">
+                        <img src="https://uifaces.co/our-content/donated/KtCFjlD4.jpg" alt="">
+                        <h4>Dollor Amet</h4>
+                    </div>
+                    <!-- <i class="fa fa-quote-right"></i> -->
+                    <p>I was a student of online program, found a job. thanks!</p>
                 </div>
             </div>
 
             <div class="items">
                 <div class="text">
-                    <i class="fa fa-quote-right"></i>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est quisquam mollitia distinctio at ad
-                        sed, ab
-                        animi earum ducimus debitis optio cupiditate, magni, voluptates omnis perspiciatis ipsa. Quae,
-                        deserunt.
-                        Labore.</p>
-                </div>
-                <div class="image">
-                    <img src="https://uifaces.co/our-content/donated/vIqzOHXj.jpg" alt="">
-                    <h4>Dollor Amet</h4>
+                    <div class="image">
+                        <img src="https://randomuser.me/api/portraits/men/64.jpg" alt="">
+                        <h4>Dollor Amet</h4>
+                    </div>
+                    <!-- <i class="fa fa-quote-right"></i> -->
+                    <p>I was a student of online program, found a job. thanks!</p>
                 </div>
             </div>
 
-            <div class="items">
-                <div class="text">
-                    <i class="fa fa-quote-right"></i>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est quisquam mollitia distinctio at ad
-                        sed, ab
-                        animi earum ducimus debitis optio cupiditate, magni, voluptates omnis perspiciatis ipsa. Quae,
-                        deserunt.
-                        Labore.</p>
-                </div>
-                <div class="image">
-                    <img src="https://uifaces.co/our-content/donated/vIqzOHXj.jpg" alt="">
-                    <h4>Dollor Amet</h4>
-                </div>
-            </div>
+
+
+
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-
     <script>
         $('.slider').slick({
+            dots: true,
             infinite: true,
+            speed: 300,
             slidesToShow: 3,
-            slidesToScroll: 1
+            slidesToScroll: 4,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
         });
+
 
     </script>
 </body>
