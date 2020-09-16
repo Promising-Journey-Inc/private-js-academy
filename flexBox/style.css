@@ -1,0 +1,33 @@
+@media(min-width:468px){
+.content{
+    /*organzie the flex box*/
+    display: flex;
+    /*border: 3px solid black;*/
+    font-size: large;
+    /*
+    align-items: flex-start;
+    align-items:flex-end;
+    align-items: center;
+    flex-direction: column;
+    */
+    justify-content: space-between;
+}
+
+.video-section{
+    
+    flex: end;
+}
+
+}
+
+button{
+    /*designing the button
+    */
+    background: #00b287;
+    color: whitesmoke;
+    width: 150px;
+    height: 45px;
+    border: 2px solid #00b287;
+    border-radius: 8px;
+    position: absolute;
+}
