@@ -14,7 +14,7 @@ body {
      /*overflow commit to left*/
 
 }
-.form-main-box {
+.container {
     border: 2px solid rgb(231, 231, 231);
     border-radius: 5px;
     background-color: #F5F5F5;
@@ -25,12 +25,9 @@ body {
     /* text-align: center; */
 }
 
-.inside-form {
-    padding-top: 100px;
-    /* text-align: center; */
-}
 
-input {
+
+.form-group {
     color: #40B3A6;
     border-color: rgb(255, 255, 255);
     border-radius: 5px;
