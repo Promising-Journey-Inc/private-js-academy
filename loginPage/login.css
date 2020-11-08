@@ -14,36 +14,34 @@ body {
      /*overflow commit to left*/
 
 }
+
 .container {
-    border: 2px solid rgb(231, 231, 231);
-    border-radius: 5px;
-    background-color: #F5F5F5;
-    color: #40B3A6;
-    max-width: 1224px;
-    height: 494px;
-    margin: 100px 100px auto 100px;
-    /* text-align: center; */
+
+}
+form {
+    border: 2px solid rgb(192, 192, 192);
+}
+h2 {
+    color: #40b3a6;
+}
+input {
+        border-radius: 5px;
+
+}
+input::placeholder {
+    color: #40b3a6;
 }
 
-
-
-.form-group {
-    color: #40B3A6;
-    border-color: rgb(255, 255, 255);
+input.btn-primary {
+    background-color: #40b3a6;
+    border: none;
     border-radius: 5px;
-    width: 500px;
-    height: 50px;
-    margin: 10px;
+    width: 510px;
+    margin-left: -4%;
+    
 }
 
-.btn {
-    background-color: #40B3A6;
-    border-color: #40B3A6;
-    border-radius: 5px;
-    color: white;
-    font-size: 20px;
-    width: 500px;
-    height: 50px;
-    margin: 10px;
-
+input.btn-primary:hover {
+    background-color: pink;
+    color: #40b3a6;
 }
