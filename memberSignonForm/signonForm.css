@@ -1,6 +1,17 @@
  @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
  
+ * { 
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     outline: none;
+ }
 
+body {
+     font-family: 'Comfortaa', cursive;
+     overflow-x: hidden;
+     /*overflow commit to left*/
+}
 /* */
 form {
     border: 2px solid #F5F5F5;
@@ -10,7 +21,7 @@ form {
     background-color: #F5F5F5;
       /* box-shadow: 5px 10px  #F5F5F5; */
     margin: auto;
-    width: 50%;
+    width: 80%;
     padding: 10px;
 
 }
@@ -24,7 +35,7 @@ small {
     float:right;
 }
 .form-group {
-    height: 41px;
+    height: 46px;
 
 }
 
@@ -39,7 +50,9 @@ input[type="submit"]:hover {
     border:1px solid #40b3a6;
     color: #40b3a6
 }
-
+.mt-4 {
+    padding-top: 30px;
+}
 
 .container {
 
